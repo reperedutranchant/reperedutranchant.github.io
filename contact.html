@@ -36,24 +36,25 @@
         </section>
 
         <!-- CARTE DES MOYENS DE CONTACT -->
-       <div class="contact-grid">
+        <div class="contact-grid">
+            
+            <!-- CASE DE GAUCHE : Scindée (Haut : Disponibilités / Bas : Téléphone) -->
             <div class="contact-col-stacked">
-        <!-- Cadre Téléphone (Haut) -->
-        <div class="contact-card">
-            <div class="icon">📞</div>
-            <h3>Téléphone</h3>
-            <p>Pour une réponse rapide ou convenir d'un dépôt :</p>
-            <a href="tel:0685012126" class="contact-link">06 85 01 21 26</a>
-        </div>
+                <div class="contact-card">
+                    <div class="icon">🕒</div>
+                    <h3>Disponibilités</h3>
+                    <p>Du lundi au samedi sur rendez-vous.</p>
+                    <p>Dépôt et retrait flexibles selon vos contraintes.</p>
+                </div>
+                <div class="contact-card">
+                    <div class="icon">📞</div>
+                    <h3>Téléphone</h3>
+                    <p>Pour une réponse rapide ou convenir d'un dépôt :</p>
+                    <a href="tel:0685012126" class="contact-link">06 85 01 21 26</a>
+                </div>
+            </div>
 
-        <!-- Cadre Facebook (Bas) -->
-        <div class="contact-card">
-            <div class="icon"><i class="fa-brands fa-facebook" style="color: #1877F2;"></i></div>
-            <h3>Facebook</h3>
-            <p>Suivez l'actualité de l'atelier :</p>
-            <a href="https://www.facebook.com/profile.php?id=61594357110746" target="_blank" rel="noopener noreferrer" class="contact-link">R.E.père du Tranchant</a>  </div>
-        </div>
-
+            <!-- CASE DU MILIEU : Secteur & Carte -->
             <div class="contact-card card-map">
                 <div class="icon">📍</div>
                 <h3>Secteur d'intervention</h3>
@@ -74,12 +75,22 @@
                 </div>
             </div>
 
-            <div class="contact-card">
-                <div class="icon">🕒</div>
-                <h3>Disponibilités</h3>
-                <p>Du lundi au samedi sur rendez-vous.</p>
-                <p>Dépôt et retrait flexibles selon vos contraintes.</p>
+            <!-- CASE DE DROITE : Scindée (Haut : Facebook / Bas : Instagram) -->
+            <div class="contact-col-stacked">
+                <div class="contact-card">
+                    <div class="icon"><i class="fa-brands fa-facebook" style="color: #1877F2;"></i></div>
+                    <h3>Facebook</h3>
+                    <p>Suivez l'actualité de l'atelier :</p>
+                    <a href="https://www.facebook.com/profile.php?id=61594357110746" target="_blank" rel="noopener noreferrer" class="contact-link">R.E.père du Tranchant</a>
+                </div>
+                <div class="contact-card">
+                    <div class="icon"><i class="fa-brands fa-instagram" style="color: #E4405F;"></i></div>
+                    <h3>Instagram</h3>
+                    <p>Découvrez les photos et réalisations :</p>
+                    <a href="https://www.instagram.com/r.e.pere.du.tranchant/" target="_blank" rel="noopener noreferrer" class="contact-link">R.E.père du Tranchant</a>
+                </div>
             </div>
+
         </div>
 
         <!-- FORMULAIRE DE CONTACT -->
@@ -121,10 +132,6 @@
                     <small class="form-help">Format : JPG, PNG ou PDF (max. 5 Mo)</small>
                 </div>
 
-
-
-
-
                 <div class="form-group">
                     <label for="message">Votre message *</label>
                     <textarea id="message" name="message" rows="5" required placeholder="Précisez le nombre d'outils ou vos questions..."></textarea>
@@ -148,7 +155,6 @@
         </section>
     </main>
 
-   
 <footer>
     <div class="footer-container">
         
@@ -165,19 +171,19 @@
             <h4 class="footer-title">Coordonnées</h4>
             <ul class="footer-contact-list">
                 <li>
-                    <span class="contact-icon">📍</span>
+                    <span class="contact-icon" style="display: inline-block; width: 23px; text-align: center;">📍</span>
                     <a href="https://maps.google.com/?q=Andrezé+49600" target="_blank" rel="noopener noreferrer">Andrezé (Beaupréau-en-Mauges)</a>
                 </li>
                 <li>
-                    <span class="contact-icon">📞</span>
+                    <span class="contact-icon" style="display: inline-block; width: 23px; text-align: center;">📞</span>
                     <a href="tel:0685012126">06 85 01 21 26</a>
                 </li>
                 <li>
-                    <span class="contact-icon">✉️</span>
+                    <span class="contact-icon" style="display: inline-block; width: 23px; text-align: center;">✉️</span>
                     <a href="contact.html">Formulaire de contact / Devis</a>
                 </li>
-                  <li>
-                <span class="contact-icon" style="display: inline-block; width: 23px; text-align: center;"><i class="fa-brands fa-facebook" style="color: #1877F2;"></i></span>
+                <li>
+                    <span class="contact-icon" style="display: inline-block; width: 23px; text-align: center;"><i class="fa-brands fa-facebook" style="color: #1877F2;"></i></span>
                     <a href="https://www.facebook.com/profile.php?id=61594357110746" target="_blank" rel="noopener noreferrer">R.E.père du Tranchant</a>    
                 </li>
                 <li>
@@ -196,7 +202,6 @@
         <p><a href="mentions-legales.html" style="color: #aaa;">Mentions Légales</a></p>
     </div>
 </footer>
-
 
 </body>
 </html>
