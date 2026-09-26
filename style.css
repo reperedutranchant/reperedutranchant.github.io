@@ -628,3 +628,17 @@ tr:hover {
         z-index: 9999;
     }
 }
+/* Permet à la colonne empilée de se comporter comme un conteneur flexible */
+.contact-col-stacked {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Force chaque carte à l'intérieur de la colonne à prendre toute la hauteur disponible */
+.contact-col-stacked .contact-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
