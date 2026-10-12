@@ -182,7 +182,7 @@ footer {
 /* --- BANNIÈRE PARALLAXE --- */
 .parallax-banner {
     /* Remplace 'image-atelier.jpg' par le nom de ton image (ex: des étincelles, des lames...) */
-    background-image: url('cisaille.jpg');
+    background-image: url('laguiole.jpg');
     
     /* Effet Parallaxe : l'image reste fixe pendant que la page défile */
     background-attachment: fixed;
