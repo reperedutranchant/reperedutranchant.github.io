@@ -180,16 +180,15 @@ footer {
 
 
 /* --- BANNIÈRE PARALLAXE --- */
-.parallax-banner {
-    /* Remplace 'image-atelier.jpg' par le nom de ton image (ex: des étincelles, des lames...) */
+
+  .parallax-banner {
     background-image: url('laguiole.jpg');
-    
-    /* Effet Parallaxe : l'image reste fixe pendant que la page défile */
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 46%;
-    
+    background-size: cover; /* 'cover' s'adapte mieux pour remplir l'espace sans cassure */
+    background-attachment: fixed; /* Gardé pour le PC */
+
+      
     /* Hauteur de la bande visuelle */
     height: 300px;
     margin: 100px -20px; /* S'étend sur toute la largeur du bloc main */
@@ -210,6 +209,17 @@ footer {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     padding: 0 20px;
 }
+
+
+/* Désactivation du fixed sur mobile pour éviter les bugs d'affichage (cases grises) */
+@media (max-width: 768px) {
+    .parallax-banner {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
+
+
 
 
 /* --- PAGE CONTACT --- */
