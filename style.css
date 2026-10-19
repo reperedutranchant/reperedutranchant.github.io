@@ -192,7 +192,7 @@ footer {
 
     /* Hauteur de la bande visuelle */
     height: 300px;
-    margin: 100px -20px; /* S'étend sur toute la largeur du bloc main */
+    margin: 150px -50px; /* S'étend sur toute la largeur du bloc main */
 
     /* Centrage du texte au milieu de l'image */
     display: flex;
