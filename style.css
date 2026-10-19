@@ -186,7 +186,7 @@ footer {
 
     /* Effet Parallaxe : l'image reste fixe pendant que la page défile */
     background-attachment: fixed;
-    background-position: center;
+    background-position: 100px;
     background-repeat: no-repeat;
     background-size: contain;
 
